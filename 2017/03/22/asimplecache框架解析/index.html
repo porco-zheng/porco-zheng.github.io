@@ -71,7 +71,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Android," />
 
 
 
@@ -87,15 +87,28 @@
 
 
 
-<meta name="description" content="愚顽怕读文章，如今翻书戏说">
-<meta property="og:type" content="website">
-<meta property="og:title" content="愚顽戏说">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="&amp;emsp;&amp;emsp;首先下定义：asimplecache是一款轻量的android缓存框架。可缓存的对象包括String、JSONObject、JSONArray、byte数组、Serializable数据、bitmap、drawable。&amp;emsp;&amp;emsp;项目的链接：https://github.com/yangfuhai/ASimpleCache&amp;emsp;&amp;emsp;项目就一个ja">
+<meta property="og:type" content="article">
+<meta property="og:title" content="asimplecache框架解析">
+<meta property="og:url" content="http://yoursite.com/2017/03/22/asimplecache框架解析/index.html">
 <meta property="og:site_name" content="愚顽戏说">
-<meta property="og:description" content="愚顽怕读文章，如今翻书戏说">
+<meta property="og:description" content="&amp;emsp;&amp;emsp;首先下定义：asimplecache是一款轻量的android缓存框架。可缓存的对象包括String、JSONObject、JSONArray、byte数组、Serializable数据、bitmap、drawable。&amp;emsp;&amp;emsp;项目的链接：https://github.com/yangfuhai/ASimpleCache&amp;emsp;&amp;emsp;项目就一个ja">
+<meta property="og:image" content="http://yoursite.com/assets/acache/acache_con.png">
+<meta property="og:image" content="http://yoursite.com/assets/acache/acache_get.png">
+<meta property="og:image" content="http://yoursite.com/assets/acache/acache_get_d.png">
+<meta property="og:image" content="http://yoursite.com/assets/acache/acachemanager.png">
+<meta property="og:image" content="http://yoursite.com/assets/acache/acache_m_cal.png">
+<meta property="og:image" content="http://yoursite.com/assets/acache/acache_m_put.png">
+<meta property="og:image" content="http://yoursite.com/assets/acache/acache_m_get.png">
+<meta property="og:image" content="http://yoursite.com/assets/acache/acache_m_remove.png">
+<meta property="og:image" content="http://yoursite.com/assets/acache/acache_put.png">
+<meta property="og:image" content="http://yoursite.com/assets/acache/acache_get_str.png">
+<meta property="og:image" content="http://yoursite.com/assets/acache/acache_put_time.png">
+<meta property="og:updated_time" content="2017-03-22T14:54:01.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="愚顽戏说">
-<meta name="twitter:description" content="愚顽怕读文章，如今翻书戏说">
+<meta name="twitter:title" content="asimplecache框架解析">
+<meta name="twitter:description" content="&amp;emsp;&amp;emsp;首先下定义：asimplecache是一款轻量的android缓存框架。可缓存的对象包括String、JSONObject、JSONArray、byte数组、Serializable数据、bitmap、drawable。&amp;emsp;&amp;emsp;项目的链接：https://github.com/yangfuhai/ASimpleCache&amp;emsp;&amp;emsp;项目就一个ja">
+<meta name="twitter:image" content="http://yoursite.com/assets/acache/acache_con.png">
 
 
 
@@ -123,13 +136,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/03/22/asimplecache框架解析/"/>
 
 
 
 
 
-  <title> 愚顽戏说 </title>
+  <title> asimplecache框架解析 | 愚顽戏说 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -154,9 +167,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-right 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-right page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -229,9 +240,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -261,10 +272,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2017/03/22/asimplecache框架解析/" itemprop="url">
-                  asimplecache框架解析
-                </a>
+                asimplecache框架解析
               
             
           </h1>
@@ -315,9 +323,7 @@
       
 
       
-        
-          
-            <p>&emsp;&emsp;首先下定义：asimplecache是一款轻量的android缓存框架。可缓存的对象包括String、JSONObject、JSONArray、byte数组、Serializable数据、bitmap、drawable。<br>&emsp;&emsp;项目的链接：<a href="https://github.com/yangfuhai/ASimpleCache" target="_blank" rel="external">https://github.com/yangfuhai/ASimpleCache</a><br>&emsp;&emsp;项目就一个java文件，read the fucking source code也花不了多少时间，so let’s go！</p>
+        <p>&emsp;&emsp;首先下定义：asimplecache是一款轻量的android缓存框架。可缓存的对象包括String、JSONObject、JSONArray、byte数组、Serializable数据、bitmap、drawable。<br>&emsp;&emsp;项目的链接：<a href="https://github.com/yangfuhai/ASimpleCache" target="_blank" rel="external">https://github.com/yangfuhai/ASimpleCache</a><br>&emsp;&emsp;项目就一个java文件，read the fucking source code也花不了多少时间，so let’s go！</p>
 <div align="center"><br><img src="/assets/acache/acache_con.png" alt="Alt text"><br></div>
 
 <p>&emsp;&emsp;这是acache定义的唯一一个构造函数，这是一个私有的构造函数。acache提供了名为get的静态方法作为入口。先是判断缓存目录是否存在，如果不存在就创建，如果创建失败就抛出异常。如果缓存目录准备好了，就创建一个缓存管理器：ACacheManager。</p>
@@ -356,195 +362,72 @@
 </li>
 </ul>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
     <div>
+      
+        
+
       
     </div>
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/03/21/mvp-rxjava架构实现与思考/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="porco">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="愚顽戏说">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/03/21/mvp-rxjava架构实现与思考/" itemprop="url">
-                  mvp-rxjava架构实现与思考
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-03-21T21:48:30+08:00">
-                2017-03-21
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/tags/Android/" rel="tag"># Android</a>
           
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
         
-          
-            <p>&emsp;&emsp;去年android的架构有点火，因为google在github上发布了官方对于android架构的事例（github地址：<a href="https://github.com/googlesamples/android-architecture" target="_blank" rel="external">https://github.com/googlesamples/android-architecture</a> ）。几个月前我刚接到一个新项目的开发任务后，在研究了todo-mvp-xxx的框架后，那优雅的contract，流畅的logic handle，简明的架包结构深深迷住了我，就在那四分之一炷香之间，我做了一个我认为是最完美的的决定，I want it！</p>
-<p>&emsp;&emsp;现在项目已经上线，开发工作了告一段落，是时候写篇文章说说它的好了。First，让我来简单说说这个框架到底是什么样的。关于什么是mvp，简单来讲就是mvc的变种，将模型与视图完全分离，这在android的app开发环境中意义更大，因为传统的mvc中activity或fragment做了太多工作导致太臃肿，无论是代码的复用性还是可维护性都是挑战。官方给出的框架图如下：</p>
-<div align="center"><br><img src="/assets/mvp.png" alt="Alt text"><br></div>
-
-<p>&emsp;&emsp;由上图可以看出来，它和传统的mvp框架并没有什么不同，都是通过presenter和view互相持有，不过google在每个presenter和view之间通过contract实现调用接口规范。一个东西要称之为框架，那么前提必须是它有一套规范或者思想，也就是俗称的套路，那么问题来了，google的套路在哪呢？</p>
-<p>&emsp;&emsp;一、模块化编程。记得从刚开始学编程，老师就告诉我要模块化要优雅。然而这一切在android上却貌似一直是个大问题，因为经常性的一个activity就是一个模块，那还要分啥模块。。。所以我见到的android app项目基本长这样：</p>
-<div align="center"><br><img src="/assets/ori_pag.png" alt="Alt text"><br></div>
-
-<p>&emsp;&emsp;no，no fashion！作为一只优雅的程序猿，拒绝粗暴简单。google给的sample长这样：</p>
-<div align="center"><br><img src="/assets/google_pag.png" alt="Alt text"><br></div>
-
-<p>&emsp;&emsp;貌似也优雅不到哪去。。。不要捉急，要优雅。仔细看看，我们会发现有点模块化的思想，addedittask、statistics、taskdetail、tasks能单独分包了，基本每个模块包含四个文件：activity、fragment、presenter和contract。来看看google的说明：</p>
-<blockquote>
-<p>The use of both activities and fragments allows for a better separation of concerns which compliments this implementation of MVP. In this version of the app, the Activity is the overall controller which creates and connects views and presenters.</p>
-</blockquote>
-<p>&emsp;&emsp;简单来说就是fragment作为模块化的基本单元，activity作为创建和链接fragment和对应presenter的容器。那我们来继续引申一下，view同样可以作为模块的基本单元，可以得到两点rules：</p>
-<ul>
-<li>fragment和view作为模块的基本组成单元。</li>
-<li>上层作为下层的容器（持有者），也就是activity持有fragment，fragment持有view。</li>
-</ul>
-<p>&emsp;&emsp;在google的设计中，presenter也是由activity初始化的，而fragment和presenter的关联也是在presenter的构造函数中完成的。这么做的优点在于降低fragment和presenter的耦合度，缺点呢就是由于fragment和presenter的初始化不同步，无法精细控制presenter的数据初始化动作。而在实际的应用场景中，fragment和view与presenter基本是一一对应的，我们可以把presenter的创建与链接放在fragment或view中，因此得到第三点rule：</p>
-<ul>
-<li>fragment和view负责对应的presenter的创建与链接。</li>
-</ul>
-<p>&emsp;&emsp;最终的架包如下图：</p>
-<div align="center"><br><img src="/assets/after_pag.png" alt="Alt text"><br></div>
-
-<p>&emsp;&emsp;二、流式处理。rxjava作为一款异步处理框架，与mvp实在是干柴烈火，天作之合。Observable和Subscription天然对应Model和Presenter，在model中定义数据的来源并返回Observable，在presenter中进行subscribe操作，同时，在subscribe时可以随时切换线程做视图的更新。<br>&emsp;&emsp;Talk is cheap，我们来简单看一组栗子加深下印象：</p>
-<div align="center"><br><img src="/assets/model.png" alt="Alt text"><br></div>
-
-<div align="center"><br><img src="/assets/presenter.png" alt="Alt text"><br></div>
-
-<p>&emsp;&emsp;好像没什么可讲解的，就这样吧。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
       
 
       
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/03/21/mvp-rxjava架构实现与思考/" rel="next" title="mvp-rxjava架构实现与思考">
+                <i class="fa fa-chevron-left"></i> mvp-rxjava架构实现与思考
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
           
           </div>
@@ -552,6 +435,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -737,6 +624,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
 
   
 
